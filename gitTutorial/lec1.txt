@@ -1,0 +1,28 @@
+GIT and GITHUB 
+    Git is a software for version control system. It is like a checkpointing method while building application.
+    GitHub is a web-based hosted service to host the Git.
+
+    Version control systems are used to track the new updates of an application. 
+
+git --version: to know the current version of git 
+git status: to know the current status of git(staged/unstaged)
+    red: untracked 
+    green: tracking 
+
+creating repository 
+    #1. git status 
+    #2. git init (if no repository is already initialised)
+        it creates a hidden folder .git which can be seen through
+        ls -la command
+    #3. git add <filename1> <filename2> etc: send files to staging area 
+        git add . or git add -A: adds all files and folders to staging area 
+
+    #4. git rm --filename: to unstage the files 
+    #5. git commit -m "message": to commit the all staged file 
+        git commit <filename> for manual and specific message 
+
+    #6. git log: very important and complex command 
+        instead use git log --oneline 
+    
+    #7. comments are written in present tense, imperative 
+        
