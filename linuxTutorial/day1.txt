@@ -1,0 +1,20 @@
+
+
+Printf [format] [arguement]
+    Common Format Specifiers
+    %s: String
+    %d or %i: Signed decimal integer
+    %u: Unsigned decimal integer
+    %f: Floating-point number
+    %c: Character
+    %x or %X: Hexadecimal integer
+    %o: Octal integer
+    %%: Prints a literal %
+    Escape Sequences
+    \n: Newline
+    \t: Tab
+    \\: Backslash
+    \": Double quote
+    \a: Alert (bell)
+    \b: Backspace
+    \r: Carriage return
