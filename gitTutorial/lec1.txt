@@ -25,4 +25,37 @@ creating repository
         instead use git log --oneline 
     
     #7. comments are written in present tense, imperative 
+    
+    #8. use .gitignore file to avoid pushing secrets to git push 
+        it will not get staged and not leak your personal details
+
+    #9. .gitkeep is a file to keep empty folder, because empty folders are not tracked 
+
+    #10. git stores data in form of blob objects but kind of snapshots 
+    
+    #11. Three musketeers of git 
+        a> commit objects 
+        b> tree objects
+        c> blob objects 
+
+        a> commit objects 
+            i> Tree object 
+            ii> Parent commit object 
+            iii> Author 
+            iv> Committer 
+            v> Commit message 
         
+        b> Tree Objects 
+            i> File mode 
+            ii> File name 
+            iii> File hash 
+            iv> Parent tree object 
+
+        c> blob object 
+            commit ->tree -> blob 
+
+    #12. git log --oneline 
+        git show -s --pretty=raw <enter an id from above command> 
+        git ls -tree: shows the tree object 
+
+     
